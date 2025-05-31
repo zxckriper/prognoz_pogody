@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <div class="search-field">
+                <input type="text" id="city-input">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="weather-info">
+                <div class="city-info">
+                    <h2 id="city-name">Казань</h2>
+                    <p id="date-time">суббота, 5 апреля 2025 год</p>
+                </div>
+                <div class="temp-info">
+                    
+                    <h1 id="temperature">10℃</h1>
+                    <p id="weather-description"></p>
+                </div>
+
+                <div class="forecast" id="forecast">
+
+                </div>
+
+
+                <div class="details">
+                    <div class="detail-item">
+                        <i class="fas fa-temperature-low"></i>
+
+                        <div>
+                            <p>ощущается как</p>
+                            <p id="feels-like">5℃</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-droplet"></i>
+
+                        <div>
+                            <p>влажность</p>
+                            <p id="humidity">5℃</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-wind"></i>
+
+                        <div>
+                            <p>ветер</p>
+                            <p id="wind-speed">5℃</p>
+                            
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-minimize"></i>
+
+                        <div>
+                            <p>давление</p>
+                            <p id="pressure">5℃</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
